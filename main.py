@@ -146,6 +146,6 @@ async def update_password(user:Password_update,session:SessionDep):
 
           
            
-if __name__=="__name__":
+if __name__=="__main__":
     
     uvicorn.run(app,host="0.0.0.0", port=8050, workers=1)
