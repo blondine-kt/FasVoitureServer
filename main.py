@@ -38,7 +38,7 @@ DB_USER = "DESKTOP-ECASE97\\PC"
 DB_PASSWORD = ""
 
 # connection a la Base de donnees
-url=f"mssql+pyodbc://{DB_SERVER}/{DB_NAME}?driver=ODBC+Driver+17+for+SQL+Server" 
+url=f"mssql+pyodbc://@{DB_SERVER}/{DB_NAME}?driver=ODBC+Driver+17+for+SQL+Server" 
 engine=create_engine(url)
 
 #creation de tables
